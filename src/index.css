@@ -1,306 +1,318 @@
-:root{
-    --color-logo: #BC9884;
-    --width-componant: 100%;
-    --width-container: 80%;
-    --width-innerContainer:50%;
-    --white-color:#fff;
-    --black-color:#000;
-    --grey-color: #E9E9E9;
-    --blue-color: #1C439B;
+:root {
+	--color-logo: #bc9884;
+	/* --width-componant: 100%; */
+	--width-container: 80%;
+	--width-innerContainer: 50%;
+	--white-color: #fff;
+	--black-color: #000;
+	--grey-color: #e9e9e9;
+	--blue-color: #1c439b;
 }
-body{
-    background-color: var(--white-color);
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: auto;
-    font-family: sans-serif;
-    overflow-x: hidden;
+body {
+	background-color: var(--white-color);
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	font-family: sans-serif;
+	/* overflow-x: hidden; */
 }
-*{
-  position: relative;
-  box-sizing: border-box;
+* {
+	position: relative;
+	box-sizing: border-box;
 }
-div{
-    outline: none;
+div {
+	outline: none;
 }
 ::-webkit-scrollbar {
-    width: 15px;
+	width: 15px;
 }
 ::-webkit-scrollbar-track {
-    background: var(--black-color);
+	background: var(--black-color);
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--color-logo);
+	background: var(--color-logo);
 }
-.buttonName{
-    padding: 20px 40px;
-    border: none;
-    outline: none;
-    margin-top: 30px;
+.buttonName {
+	padding: 20px 40px;
+	border: none;
+	outline: none;
+	margin-top: 30px;
 }
 /*******************************HEADER**************************/
-.header{
-  height: 70px;
-  background: var(--white-color);
-  z-index: 20;
-  top: 0;
-  left: 0;
-  position: sticky;
+.header {
+	height: 70px;
+	background: var(--black-color);
+	z-index: 20;
+	top: 0;
+	left: 0;
+	position: sticky;
+	width: 100%;
+}
+.header img {
+	width: auto;
 }
 /************************************HOME**************************/
-.bigComponant{
-    width: var(--width-componant);
+.bigComponant {
+	width: var(--width-componant);
 }
-.bigComponant .title{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 6;
-    margin: auto;
-    transform: translate(-50%, -50%);
+.bigComponant .title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 6;
+	margin: auto;
+	transform: translate(-50%, -50%);
 }
-.bigComponant .title .subtitle{
-    text-align: center;
-    color: var(--white-color);
-    font-size: 28px;
-
-} 
-.bigComponant .sectionOne .slick-prev{
-    left: 5%;
-    z-index: 5;
+.bigComponant .title .subtitle {
+	text-align: center;
+	color: var(--white-color);
+	font-size: 28px;
 }
-.bigComponant .sectionOne .slick-next{
-    right: 5%;
-    z-index: 5;
+.bigComponant .sectionOne .slick-prev {
+	left: 5%;
+	z-index: 5;
 }
-.bigComponant .sectionOne .slick-dots{
-    bottom: 25px;
+.bigComponant .sectionOne .slick-next {
+	right: 5%;
+	z-index: 5;
 }
-.bigComponant .sectionOne .slick-dots li button::before{
-    opacity: .5;
-    color: var(--white-color);
+.bigComponant .sectionOne .slick-dots {
+	bottom: 25px;
+}
+.bigComponant .sectionOne .slick-dots li button::before {
+	opacity: 0.5;
+	color: var(--white-color);
 }
 .bigComponant .sectionOne .slick-dots li.slick-active button:before {
-    opacity: 1;
-    color: var(--white-color);
-} 
+	opacity: 1;
+	color: var(--white-color);
+}
 /**********************************Section Two********************/
-.bigComponant .sectionTwo{
-    width: var(--width-componant);
-    display: flex;
-    min-height: 750px;
-    justify-content: center;
-    align-items: center;
+.bigComponant .sectionTwo {
+	padding: 40px 0;
 }
-.col-12{
-    position: relative;
-    height: auto;
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 35% 65%;
-    grid-column-gap: 30px;
-    align-items: center;
-    margin: auto;
+img {
+	display: inline-block;
+	width: 100%;
 }
-.bigComponant .sectionTwo .col-12 .sectionInner{
-    width: 100%;
-    margin-right: 20px;
+/* .col-12 {
+	position: relative;
+	height: auto;
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 35% 65%;
+	grid-column-gap: 30px;
+	align-items: center;
+	margin: auto;
+} */
+.bigComponant .sectionTwo .col-12 .sectionInner {
+	width: 100%;
+	margin-right: 20px;
 }
-.bigComponant .sectionTwo .col-12 .sectionInner img{
-    width: 100%;
+.bigComponant .sectionTwo .col-12 .sectionInner img {
+	width: 100%;
 }
-.bigComponant .sectionTwo .col-12 .sectionInnerTwo img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.bigComponant .sectionTwo .col-12 .sectionInnerTwo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
-.bigComponant .sectionTwo .col-12 .sectionInnerTwo{
-    width: 100%;
-    height: 100%;
+.bigComponant .sectionTwo .col-12 .sectionInnerTwo {
+	width: 100%;
+	height: 100%;
 }
-.bigComponant .sectionTwo .col-12 .sectionInnerTwo .Content{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: auto;
-    padding: 20px;
-    align-items: center;
-    /* width: 260px; */
-    transform: translate(0%, -50%);
-    color: var(--white-color);
-    text-align: center;
+.bigComponant .sectionTwo .col-12 .sectionInnerTwo .Content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: auto;
+	padding: 20px;
+	align-items: center;
+	/* width: 260px; */
+	transform: translate(0%, -50%);
+	color: var(--white-color);
+	text-align: center;
 }
-.bigComponant .sectionTwo .col-12 .sectionInnerTwo .Content h1{
-    margin: 0;
+.bigComponant .sectionTwo .col-12 .sectionInnerTwo .Content h1 {
+	margin: 0;
 }
-.bigComponant div .Content .buttonName{
-    background-color: var(--white-color);
-    color: var(--black-color);
+.bigComponant div .Content .buttonName {
+	background-color: var(--white-color);
+	color: var(--black-color);
 }
 /*********************************************Section Three*****************************/
-.bigComponant .sectionThree{
-    height: 840px;
-    width: var(--width-componant);
-    background-color: var(--grey-color);
-    display: flex;
+.bigComponant .sectionThree {
+	height: 840px;
+	width: var(--width-componant);
+	background-color: var(--grey-color);
+	display: flex;
 }
-.sectionThree .secInnerThree{ 
-    width: var(--width-container);   
-    display: grid;
-    grid-template-columns: 35% 65%;
-    grid-column-gap: 100px;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    margin: auto;
+.sectionThree .secInnerThree {
+	width: var(--width-container);
+	display: grid;
+	grid-template-columns: 35% 65%;
+	grid-column-gap: 100px;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	margin: auto;
 }
-.bigComponant .sectionThree h1,.bigComponant .sectionThree h3,.bigComponant .sectionThree p{
-    margin: 0;
+.bigComponant .sectionThree h1,
+.bigComponant .sectionThree h3,
+.bigComponant .sectionThree p {
+	margin: 0;
 }
-.bigComponant .sectionThree h1{
-    font-size: 40px;
-    margin-bottom: 20px;
+.bigComponant .sectionThree h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
 }
-.bigComponant .sectionThree p.supheeding{
-    font-size: 22px;
-    margin-bottom: 90px;
-    position: relative;
+.bigComponant .sectionThree p.supheeding {
+	font-size: 22px;
+	margin-bottom: 90px;
+	position: relative;
 }
 .sectionThree .secInnerThree p.supheeding:after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    transform: translate(0, 0);
-    background-image: url(./assets/images/wave.svg);
-    background-position: left;
-    background-repeat: no-repeat;
-    margin-top: 40px;
- }
-.bigComponant .sectionThree h3{
-    font-size: 30px;
-    margin-bottom: 30px;
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	transform: translate(0, 0);
+	background-image: url(./assets/images/wave.svg);
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-top: 40px;
 }
-.bigComponant .sectionThree p{
-    font-size: 16px;
-    margin-bottom: 100px;
+.bigComponant .sectionThree h3 {
+	font-size: 30px;
+	margin-bottom: 30px;
 }
-.bigComponant .sectionThree .buttonName{
-    background-color: var(--black-color);
-    color: var(--white-color);
+.bigComponant .sectionThree p {
+	font-size: 16px;
+	margin-bottom: 100px;
 }
-.sectionThree .secInnerThree .secoundSlid .slick-track img{
-    width: 100%;
+.bigComponant .sectionThree .buttonName {
+	background-color: var(--black-color);
+	color: var(--white-color);
 }
-.sectionThree .secInnerThree .secoundSlid .slick-slider .slick-arrow{
-    height: 0;
-    z-index: 5;
-    width: 70px;
+.sectionThree .secInnerThree .secoundSlid .slick-track img {
+	width: 100%;
 }
- .sectionThree .secInnerThree .secoundSlid .slick-slider .slick-arrow::before,.sectionThree .secInnerThree .secoundSlid .slick-slider .slick-arrow::after{
-    font-family: none;
-    font-size: 50px;
-    color: #1B439B;
+.sectionThree .secInnerThree .secoundSlid .slick-slider .slick-arrow {
+	height: 0;
+	z-index: 5;
+	width: 70px;
 }
-.sectionThree .secInnerThree .secoundSlid .slick-slider .slick-dots{
-   bottom: -25px;
+.sectionThree .secInnerThree .secoundSlid .slick-slider .slick-arrow::before,
+.sectionThree .secInnerThree .secoundSlid .slick-slider .slick-arrow::after {
+	font-family: none;
+	font-size: 50px;
+	color: #1b439b;
 }
-.sectionThree .secInnerThree .secoundSlid .slick-slider .slick-dots li button:before{
-    color: #1B439B;
+.sectionThree .secInnerThree .secoundSlid .slick-slider .slick-dots {
+	bottom: -25px;
+}
+.sectionThree
+	.secInnerThree
+	.secoundSlid
+	.slick-slider
+	.slick-dots
+	li
+	button:before {
+	color: #1b439b;
 }
 /************************************Section cloned*********************/
-.rowClone{
-    width: 100%;
-    height: 1240px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.rowClone {
+	width: 100%;
+	height: 1240px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-.rowClone h1.content{
-    margin-top: 130px;
-    font-size: 40px;
-    margin-bottom: 20px;
+.rowClone h1.content {
+	margin-top: 130px;
+	font-size: 40px;
+	margin-bottom: 20px;
 }
-.rowClone p.content{
-    margin-top: 0;
-    font-size: 22px;
-    margin-bottom: 20px;
-    position: relative;
+.rowClone p.content {
+	margin-top: 0;
+	font-size: 22px;
+	margin-bottom: 20px;
+	position: relative;
 }
-.rowClone p.content::after{
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    left: 100%;
-    top: 0;
-    transform: translate(-67%, 0);
-    background-image: url(/static/media/wave.c6021943.svg);
-    background-repeat: no-repeat;
-    margin-top: 40px;
+.rowClone p.content::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 100%;
+	top: 0;
+	transform: translate(-67%, 0);
+	background-image: url(/static/media/wave.c6021943.svg);
+	background-repeat: no-repeat;
+	margin-top: 40px;
 }
-.rowClone .innerClone{
-    width: 80%;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 130px;
-    margin: auto;
+.rowClone .innerClone {
+	width: 80%;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 130px;
+	margin: auto;
 }
-.rowClone .Clones img{
-    width: 100%;
+.rowClone .Clones img {
+	width: 100%;
 }
-.rowClone .Clones h1{
-    font-size: 30px;
-    margin: 0;
-    margin-top: 25px;
+.rowClone .Clones h1 {
+	font-size: 30px;
+	margin: 0;
+	margin-top: 25px;
 }
-.rowClone .Clones p{
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0;
-    margin-top: 30px;
+.rowClone .Clones p {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+	margin-top: 30px;
 }
-.rowClone .Clones .buttonName{
-    background-color: var(--black-color);
-    color:  var(--white-color);
+.rowClone .Clones .buttonName {
+	background-color: var(--black-color);
+	color: var(--white-color);
 }
 /*********************************footer***************************/
-.footer{
-    height: 612px;
-    background-color: var(--grey-color);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.footer {
+	height: 612px;
+	background-color: var(--grey-color);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
-.footer h1{
-    position: relative;
-    width: fit-content;
-    font-size: 155px;
-    margin: 0;
-    text-decoration: underline;
-    display: inline-block;
+.footer h1 {
+	position: relative;
+	width: fit-content;
+	font-size: 155px;
+	margin: 0;
+	text-decoration: underline;
+	display: inline-block;
 }
-.blue-color{
-    color: var(--blue-color);
-    font-size: 22px;
+.blue-color {
+	color: var(--blue-color);
+	font-size: 22px;
 }
-.footer p:nth-child(3){
-    font-size: 40px;
+.footer p:nth-child(3) {
+	font-size: 40px;
 }
-.footer .info{
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 200px;
-    font-size: 30px;
+.footer .info {
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 200px;
+	font-size: 30px;
 }
-.footer .info img{
-    width: 53px;
+.footer .info img {
+	width: 53px;
 }
 /* .footer .monkeyMove{
   position: absolute;

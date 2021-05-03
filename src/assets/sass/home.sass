@@ -1,0 +1,28 @@
+bigComponant
+    width: var(--width-componant)
+    title
+        position: absolute
+        left: 50%
+        top: 50%
+        z-index: 6
+        margin: auto
+        transform: translate(-50%, -50%)
+        subtitle
+            text-align: center
+            color: var(--white-color)
+            font-size: 28px
+    sectionOne 
+        slick-prev
+            left: 5%
+            z-index: 5
+        slick-next
+            right: 5%
+            z-index: 5
+        slick-dots
+            bottom: 25px
+            li button::before
+                opacity: .5
+                color: var(--white-color)
+                & active button:before 
+                    opacity: 1
+                    color: var(--white-color)
