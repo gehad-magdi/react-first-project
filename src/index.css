@@ -15,10 +15,8 @@ body {
 	width: 100%;
 	height: auto;
 	font-family: sans-serif;
-	/* overflow-x: hidden; */
 }
 * {
-	position: relative;
 	box-sizing: border-box;
 }
 div {
@@ -96,46 +94,40 @@ img {
 	display: inline-block;
 	width: 100%;
 }
-/* .col-12 {
-	position: relative;
-	height: auto;
-	width: 80%;
-	margin: auto;
-	display: grid;
-	grid-template-columns: 35% 65%;
-	grid-column-gap: 30px;
-	align-items: center;
-	margin: auto;
-} */
-.bigComponant .sectionTwo .col-12 .sectionInner {
+.bigComponant .sectionInner img {
 	width: 100%;
-	margin-right: 20px;
+	display: inline-block;
 }
-.bigComponant .sectionTwo .col-12 .sectionInner img {
-	width: 100%;
-}
-.bigComponant .sectionTwo .col-12 .sectionInnerTwo img {
+.bigComponant .sectionInnerTwo img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
-.bigComponant .sectionTwo .col-12 .sectionInnerTwo {
+.bigComponant .sectionInnerTwo {
 	width: 100%;
 	height: 100%;
 }
-.bigComponant .sectionTwo .col-12 .sectionInnerTwo .Content {
+.bigComponant .sectionInnerTwo {
+	position: relative;
+}
+.bigComponant .sectionInnerTwo .Content {
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: auto;
+	top: 0;
+	right: 0;
+	min-width: 400px;
+	max-width: 450px;
 	padding: 20px;
-	align-items: center;
-	/* width: 260px; */
-	transform: translate(0%, -50%);
+	margin: auto;
 	color: var(--white-color);
 	text-align: center;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-.bigComponant .sectionTwo .col-12 .sectionInnerTwo .Content h1 {
+
+.bigComponant .sectionInnerTwo .Content h1 {
 	margin: 0;
 }
 .bigComponant div .Content .buttonName {
