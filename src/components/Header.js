@@ -13,6 +13,10 @@ import SearchIcon from "@material-ui/icons/Search";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import Logo from "../assets/images/Logo.svg";
 
+const searchArea = () => {
+	console.log("Click happened");
+};
+
 const useStyles = makeStyles((theme) => ({
 	grow: {
 		flexGrow: 1,
@@ -164,6 +168,7 @@ export default function PrimarySearchAppBar() {
 							<SearchIcon />
 						</div>
 						<InputBase
+							onClick={searchArea}
 							placeholder=""
 							classes={{
 								root: classes.inputRoot,
