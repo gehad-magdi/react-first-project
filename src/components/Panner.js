@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import PannerImage from "../assets/images/Logo Typo.svg";
 import BG from "../assets/images/BG.svg";
 import { Container } from "@material-ui/core";
-import { Component } from "react";
+// import { Component } from "react";
 
 class SimpleSlider extends React.Component {
 	render() {
@@ -19,7 +19,7 @@ class SimpleSlider extends React.Component {
 		return (
 			<Container style={{ padding: 0 }} maxWidth="xl" className="sectionOne">
 				<Slider {...settings}>
-					<div>
+					<div className="content_slider">
 						<img src={BG} alt="Loading"></img>
 						<h3 className="title">
 							<img src={PannerImage} alt="Loading"></img>
