@@ -37,6 +37,7 @@ div {
 	border: none;
 	outline: none;
 	margin-top: 30px;
+	border-radius: 12px;
 }
 /*******************************HEADER**************************/
 .header {

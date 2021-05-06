@@ -12,6 +12,7 @@ class MainContainer extends React.Component {
 					spacing={2}
 					alignItems="center"
 					className={this.props.className}
+					style={{ marginTop: 100, marginBottom: 100 }}
 				>
 					<Grid xs={12} lg={4} style={{ padding: 10 }}>
 						<Image />
