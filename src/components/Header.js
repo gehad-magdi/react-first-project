@@ -147,7 +147,7 @@ export default function PrimarySearchAppBar() {
 					<IconButton
 						edge="start"
 						className={classes.menuButton}
-						color="#000"
+						style={{ color: "#000" }}
 						aria-label="open drawer"
 					>
 						<MenuIcon />
@@ -185,7 +185,7 @@ export default function PrimarySearchAppBar() {
 							aria-controls={mobileMenuId}
 							aria-haspopup="true"
 							onClick={handleMobileMenuOpen}
-							color="#000"
+							style={{ color: "#000" }}
 						>
 							<MoreIcon />
 						</IconButton>

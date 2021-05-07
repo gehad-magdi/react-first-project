@@ -10,17 +10,31 @@ class CloneSection extends React.Component {
 	render() {
 		return (
 			<Container style={{ paddingTop: 100, paddingBottom: 100 }}>
-				<div className="rowClone">
-					<h1 className="content">Projects</h1>
-					<p className="content">How We effected!</p>
-					<div className="innerClone"></div>
-				</div>
 				<Grid container spacing={2} alignItems="center">
-					<Grid xs={12} lg={6} style={{ padding: 10 }}>
+					<Grid xs={false} lg={5}></Grid>
+					<Grid xs={12} lg={2}>
+						{" "}
+						<div className="rowClone">
+							<h1 className="content">Projects</h1>
+							<p className="content">
+								How We effected!
+								<span className="waveShape"></span>
+							</p>
+						</div>
+					</Grid>
+					<Grid xs={false} lg={5}></Grid>
+				</Grid>
+				<Grid container spacing={2} alignItems="center">
+					<Grid
+						xs={12}
+						lg={6}
+						style={{ padding: 10, marginBottom: 60, marginTop: 60 }}
+					>
 						<Clones
 							image={White}
 							title=" Athens Gold Marble"
 							typo="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+							showmore="Read More"
 						/>
 					</Grid>
 					<Grid xs={12} lg={6} style={{ padding: 10 }}>
@@ -28,6 +42,7 @@ class CloneSection extends React.Component {
 							image={Fox}
 							title=" Athens Gold Marble"
 							typo="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+							showmore="Read More"
 						/>
 					</Grid>
 				</Grid>
