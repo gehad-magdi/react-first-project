@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "./sectionTwo";
-import SimpleSlider from "./Panner";
-import CloneSection from "../sectionClone";
+import SimpleSlider from "../contentOfHome/Panner";
+import CloneSection from "./sectionClone";
 import TheardThree from "./sectionPartThree";
-import "../assets/sass/home.sass";
+import "../../assets/sass/home.sass";
 
 class Home extends React.Component {
 	constructor() {

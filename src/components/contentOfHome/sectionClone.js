@@ -1,9 +1,9 @@
 import React from "react";
-import Clones from "./contentOfHome/cloneSection";
+import Clones from "./cloneSection";
 // import {ReactDom as White} from './images/white-marble-effect-matt-porcelain-wall-and-floor-tile-105.svg'
 // import {ReactDom as Fox} from './images/Fox+Stairs.svg'
-import White from "../assets/images/white-marble-effect-matt-porcelain-wall-and-floor-tile-105.svg";
-import Fox from "../assets/images/Fox+Stairs.svg";
+import White from "../../assets/images/white-marble-effect-matt-porcelain-wall-and-floor-tile-105.svg";
+import Fox from "../../assets/images/Fox+Stairs.svg";
 import { Container, Grid } from "@material-ui/core";
 
 class CloneSection extends React.Component {
@@ -11,8 +11,8 @@ class CloneSection extends React.Component {
 		return (
 			<Container style={{ paddingTop: 100, paddingBottom: 100 }}>
 				<Grid container spacing={2} alignItems="center">
-					<Grid xs={false} lg={5}></Grid>
-					<Grid xs={12} lg={2}>
+					<Grid item xs={false} lg={5}></Grid>
+					<Grid item xs={12} lg={2}>
 						{" "}
 						<div className="rowClone">
 							<h1 className="content">Projects</h1>
@@ -22,10 +22,11 @@ class CloneSection extends React.Component {
 							</p>
 						</div>
 					</Grid>
-					<Grid xs={false} lg={5}></Grid>
+					<Grid item xs={false} lg={5}></Grid>
 				</Grid>
 				<Grid container spacing={2} alignItems="center">
 					<Grid
+						item
 						xs={12}
 						lg={6}
 						style={{ padding: 10, marginBottom: 60, marginTop: 60 }}
@@ -37,7 +38,7 @@ class CloneSection extends React.Component {
 							showmore="Read More"
 						/>
 					</Grid>
-					<Grid xs={12} lg={6} style={{ padding: 10 }}>
+					<Grid item xs={12} lg={6} style={{ padding: 10 }}>
 						<Clones
 							image={Fox}
 							title=" Athens Gold Marble"

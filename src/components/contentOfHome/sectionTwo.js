@@ -14,10 +14,16 @@ class MainContainer extends React.Component {
 					className={this.props.className}
 					style={{ marginTop: 100, marginBottom: 100 }}
 				>
-					<Grid xs={12} lg={4} style={{ padding: 10 }}>
+					<Grid item xs={12} lg={4} style={{ padding: 10 }}>
 						<Image />
 					</Grid>
-					<Grid className="mainContent" xs={12} lg={8} style={{ padding: 10 }}>
+					<Grid
+						item
+						className="mainContent"
+						xs={12}
+						lg={8}
+						style={{ padding: 10 }}
+					>
 						<Content className="Content" />
 					</Grid>
 				</Grid>

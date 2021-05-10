@@ -1,5 +1,5 @@
 import React from "react";
-import SecoundImage from "../assets/images/Marble-Mockup.svg";
+import SecoundImage from "../../assets/images/Marble-Mockup.svg";
 import { Grid } from "@material-ui/core";
 
 class Content extends React.Component {
@@ -20,8 +20,8 @@ class Content extends React.Component {
 					<img src={SecoundImage} alt={"Logo"}></img>
 				</div>
 
-				<Grid xs={12} lg={6}></Grid>
-				<Grid xs={12} lg={6} className="backgroundColor">
+				<Grid item xs={12} lg={6}></Grid>
+				<Grid item xs={12} lg={6} className="backgroundColor">
 					<div className={this.props.className}>
 						<h1>About AMWAJ</h1>
 						<span>MARBLES AND STONES</span>

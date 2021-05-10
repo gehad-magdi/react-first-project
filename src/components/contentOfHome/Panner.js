@@ -2,8 +2,8 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import PannerImage from "../assets/images/Logo Typo.svg";
-import BG from "../assets/images/BG.svg";
+import PannerImage from "../../assets/images/Logo Typo.svg";
+import BG from "../../assets/images/BG.svg";
 import { Container } from "@material-ui/core";
 // import { Component } from "react";
 
