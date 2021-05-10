@@ -1,5 +1,5 @@
 import React from "react";
-import Clones from "./cloneSection";
+import Clones from "./contentOfHome/cloneSection";
 // import {ReactDom as White} from './images/white-marble-effect-matt-porcelain-wall-and-floor-tile-105.svg'
 // import {ReactDom as Fox} from './images/Fox+Stairs.svg'
 import White from "../assets/images/white-marble-effect-matt-porcelain-wall-and-floor-tile-105.svg";
