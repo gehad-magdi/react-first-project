@@ -293,7 +293,7 @@ img {
 	font-size: 30px;
 	font-weight: 100;
 }
-.footer .monkeyMove {
+/* .footer .monkeyMove {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -304,6 +304,47 @@ img {
 }
 .footer .monkeyMove:hover {
 	transform: rotate(13deg);
+} */
+.logo-footer {
+	max-width: 150px;
+}
+.descripion-footer {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #1c1816;
+}
+.coppyRight {
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 400;
+	color: var(--black-color);
+}
+.menuFooter h6 {
+	margin: 0;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: bolder;
+}
+.menuFooter ul {
+	list-style: none;
+	padding: 0;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 400;
+	color: #1c1816;
+}
+.subscripeFooter {
+	font-size: 24px;
+	line-height: 20px;
+	color: var(--black-color);
+}
+.buttonFooter {
+	color: var(--white-color);
+	background-color: var(--black-color);
+	font-size: 12px;
+	font-weight: bolder;
+	border-radius: 10px;
 }
 /******************************Media Query*******************************/
 @media only screen and (max-width: 1040px) {
