@@ -1,19 +1,19 @@
 import React from "react";
-import Home from "./contentOfHome/Home";
+// import Header from "./header/Header";
+import MainMenu from "./mainMenu/menu";
 import MainFooter from "./footer/mainFooter";
-import Header from "./header/Header";
 
 class App extends React.Component {
 	render() {
 		const footer = "footer";
 		return (
 			<div>
-				<Header />
-				{home}
+				{/* <Header /> */}
+				<MainMenu />
 				<MainFooter className={footer} />
 			</div>
 		);
 	}
 }
-let home = <Home />;
+
 export default App;
